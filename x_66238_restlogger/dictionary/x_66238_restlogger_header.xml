@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Header" max_length="40" name="x_66238_restlogger_header" type="collection">
+        <element label="Message" max_length="32" name="message" reference="x_66238_restlogger_message" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Value" max_length="1000" name="value" type="string"/>
+        <index name="index">
+            <element name="message"/>
+        </index>
+    </element>
+</database>
